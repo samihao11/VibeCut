@@ -1,0 +1,4 @@
+# Turborepo
+.turbo
+
+apps/web/public/
