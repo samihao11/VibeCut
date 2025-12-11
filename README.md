@@ -1,27 +1,30 @@
 <table width="100%">
   <tr>
     <td align="left" width="120">
-      <img src="apps/web/public/logo.png" alt="OpenCut Logo" width="100" />
+      <img src="apps/web/public/logo.png" alt="VibeCut Logo" width="100" />
     </td>
     <td align="right">
-      <h1>OpenCut</span></h1>
-      <h3 style="margin-top: -10px;">A free, open-source video editor for web, desktop, and mobile.</h3>
+      <h1>VibeCut</span></h1>
+      <h3 style="margin-top: -10px;">The Cursor for video - AI-powered video editing that understands what you want.</h3>
     </td>
   </tr>
 </table>
 
-## Why?
+## How It Works
 
-- **Privacy**: Your videos stay on your device
-- **Free features**: Every basic feature of CapCut is paywalled now
-- **Simple**: People want editors that are easy to use - CapCut proved that
+VibeCut uses the Claude Agent SDK to add an intelligent agent layer on top of a powerful video editor. Instead of learning complex editing tools and workflows, you simply describe what you want - the AI agent understands video editing concepts and executes them for you.
+
+- **Natural language editing**: Tell VibeCut what you want, and it handles the technical details
+- **Intelligent understanding**: The agent knows about cuts, transitions, effects, timing, and composition
+- **Streamlined workflow**: Focus on your creative vision, not the mechanics of editing
 
 ## Features
 
-- Timeline-based editing
-- Multi-track support
-- Real-time preview
-- No watermarks or subscriptions
+- **AI-powered editing**: Describe your edits in natural language
+- **Timeline-based interface**: Full control when you need it
+- **Multi-track support**: Professional-grade editing capabilities
+- **Real-time preview**: See your changes instantly
+- **Claude Agent SDK**: Powered by state-of-the-art AI that understands video editing
 - Analytics provided by [Databuddy](https://www.databuddy.cc?utm_source=opencut), 100% Anonymized & Non-invasive.
 - Blog powered by [Marble](https://marblecms.com?utm_source=opencut), Headless CMS.
 
@@ -144,9 +147,9 @@ The application will be available at [http://localhost:3000](http://localhost:30
 
 ## Contributing
 
-We welcome contributions! While we're actively developing and refactoring certain areas, there are plenty of opportunities to contribute effectively.
+We welcome contributions to VibeCut! We're actively developing the AI agent layer and core editing features.
 
-**🎯 Focus areas:** Timeline functionality, project management, performance, bug fixes, and UI improvements outside the preview panel.
+**🎯 Focus areas:** AI agent capabilities, timeline functionality, project management, performance, and bug fixes.
 
 **⚠️ Avoid for now:** Preview panel enhancements (fonts, stickers, effects) and export functionality - we're refactoring these with a new binary rendering approach.
 
