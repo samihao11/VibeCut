@@ -145,36 +145,12 @@ Before you begin, ensure you have the following installed on your system:
 
 The application will be available at [http://localhost:3000](http://localhost:3000).
 
-## Contributing
+## Credits
 
-We welcome contributions to VibeCut! We're actively developing the AI agent layer and core editing features.
-
-**🎯 Focus areas:** AI agent capabilities, timeline functionality, project management, performance, and bug fixes.
-
-**⚠️ Avoid for now:** Preview panel enhancements (fonts, stickers, effects) and export functionality - we're refactoring these with a new binary rendering approach.
-
-See our [Contributing Guide](.github/CONTRIBUTING.md) for detailed setup instructions, development guidelines, and complete focus area guidance.
-
-**Quick start for contributors:**
-
-- Fork the repo and clone locally
-- Follow the setup instructions in CONTRIBUTING.md
-- Create a feature branch and submit a PR
-
-## Sponsors
-
-<a href="https://fal.ai">
-  <img alt="Powered by fal.ai" src="https://img.shields.io/badge/Powered%20by-fal.ai-000000?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCAxMEwxMy4wOSAxNS43NEwxMiAyMkwxMC45MSAxNS43NEw0IDEwTDEwLjkxIDguMjZMMTIgMloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" />
-</a>
+VibeCut is a fork of [OpenCut](https://github.com/opencut-app/opencut), an open-source video editor. We've built upon OpenCut's solid foundation by adding an AI agent layer powered by the Claude Agent SDK, transforming it into an intelligent video editing assistant. We're grateful to the OpenCut team and community for creating such an excellent base to build upon.
 
 ---
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FOpenCut-app%2FOpenCut&project-name=opencut&repository-name=opencut)
 
 ## License
 
 [MIT LICENSE](LICENSE)
-
----
-
-![Star History Chart](https://api.star-history.com/svg?repos=opencut-app/opencut&type=Date)
